@@ -1,23 +1,11 @@
-################################################################################
-# Docker-compose vue service commands for dev
-################################################################################
-
-dist:
-	docker-compose run vue vuepress build
-	mv .vuepress/dist/* .
-	rm -r .vuepress
-
-bash:
-	docker-compose run django bash
-
-up:
-	docker-compose up -d
-
-logs:
-	docker-compose logs -f
-
-down:
-	docker-compose down
+clean:
+	rm -r *.html assets
 
 build:
-	docker-compose build
+	vuepress build
+	mv .vuepress/dist/* .
+
+build.clean: clean build
+
+run:
+	vuepress dev
