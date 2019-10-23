@@ -1,9 +1,9 @@
 clean:
-	rm -r *.html assets
+	rm docs/*
 
 build:
 	vuepress build
-	mv .vuepress/dist/* .
+	# mv .vuepress/dist/* docs
 
 build.clean: clean build
 
