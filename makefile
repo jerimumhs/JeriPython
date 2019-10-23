@@ -4,7 +4,7 @@
 
 dist:
 	docker-compose run vue vuepress build
-	mv .vuepress/dist dist 
+	mv .vuepress/dist/* .
 	rm -r .vuepress
 
 bash:
