@@ -1,9 +1,6 @@
-clean:
-	rm -r docs/*
-
-build: clean
+build:
 	vuepress build
-	mv .vuepress/dist/* docs
+	cp -r .vuepress/dist/* .
 
 run:
 	vuepress dev
