@@ -10,6 +10,8 @@ Em cada encontro seguiremos os videos de tutorial do curso e discutimos agregand
 ## Quem pode participar?
 Todo mundo é bem vindo nos nossos encontros (basta seguir o guia de boa conduta do HS).
 
+Inclusive aceitamos toda e qualquer colaboração <3
+
 ## Objetivos futuros
 Fazer tutoriais e ensinar algumas tecnologias a parte do curso do Massanori. 
 
